@@ -1,5 +1,4 @@
-
-#Thesis title: Project Role Prediction for Software Engineering Course Using Machine Learning Techniques
+# Thesis title: Project Role Prediction for Software Engineering Course Using Machine Learning Techniques
 
 Researchers:
 Mark Angelo Panaguiton

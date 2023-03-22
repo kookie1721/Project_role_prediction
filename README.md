@@ -1,1 +1,10 @@
-# Project_role_prediction_for_software_engineering_using_machine_learning_techniques
+
+#Thesis title: Project Role Prediction for Software Engineering Course Using Machine Learning Techniques
+
+Researchers:
+Mark Angelo Panaguiton
+Rica Jean Mayormita
+Florence Tubosa
+
+WMSU-CCS
+Department of Computer Science

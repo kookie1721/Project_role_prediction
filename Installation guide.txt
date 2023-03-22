@@ -1,0 +1,37 @@
+#---------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------#
+REQUIREMENTS:
+	- MySQL 10.4.24-MariaDB or higher
+	- Python 3.10.6
+	- Python packages and dependencies (requirements.txt)
+	- Database structure and data (SQL script), in the github repository (thesis_db_project_role_prediction.sql)
+
+#---------------------------------------------------------------------------------------------------------------------#
+STEPS
+
+1. Download or git clone the github repository containing the project folder for this thesis (Predict_Best_Software_Engineering_Role_System)
+2. Install Python version 3.10.6
+3. Go to project directory, open the command prompt from the project directory or open the project folder in the VS code then open the terminal from the VS code.
+	- py -m venv venv (create the virtual environment)
+	- venv\Scripts\activate (activate the virtual environment)
+	- pip install -r requirements.txt (install required python packages and dependencies)
+4. Create database name "thesis_db", import the database structure (sql script) and data
+5. Then type "py app.py" to run the application
+
+NOTE: Please take note that username and pass of the MySQL-MariaDB should be in default such as username = "root"
+password = "", and host = "localhost".
+Furthermore, please take note that when running the step 3 command "pip install -r requirements.txt" it may take some time to install the packages and dependencies,
+kindly wait for the installation to finish.
+
+Please take note that if you have encoutered "MAX_PATH Limitation windows" while installing the requirements.txt, please run this 
+command on a powershell with admin rights:
+
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+If you want to know more about this error, kindly visit this link: https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later
+
+#---------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------#

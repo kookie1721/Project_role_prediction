@@ -13,6 +13,7 @@ STEPS
 1. Download or git clone the github repository containing the project folder for this thesis (Predict_Best_Software_Engineering_Role_System)
 2. Install Python version 3.10.6
 3. Go to project directory, open the command prompt from the project directory or open the project folder in the VS code then open the terminal from the VS code.
+	run the following commands:
 	- py -m venv venv (create the virtual environment)
 	- venv\Scripts\activate (activate the virtual environment)
 	- pip install -r requirements.txt (install required python packages and dependencies)

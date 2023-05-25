@@ -41,7 +41,7 @@
                           
                                                    
                           {% if is_predict == 3%}
-                          <p >Predicting your roles is no longer available, since you already attempted for 3 times.</p>
+                          <p> Predicting your roles is no longer available, since you already attempted for 3 times.</p>
                           {% endif %}
                           {% if is_predict >= 0 and is_predict != 3%}
                           <a href="{{ url_for('start') }} " class="btn btn-success">Predict</a>

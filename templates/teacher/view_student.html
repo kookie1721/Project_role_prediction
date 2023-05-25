@@ -44,11 +44,11 @@
                           <h4>{{session.firstName}} {{session.lastName}}</h4>
                         
                           {% if is_predict == 0%}
-                          <p >This student has not yet predicted his/her main and secondary software engineering roles./p>
+                          <p> This student has not yet predicted his/her main and secondary software engineering roles. </p>
                           {% endif %}
 
                           {% if is_predict > 0%}
-                          <p >This student has predicted his/her main and secondary software engineering roles for <b>{{is_predict}}</b> times.
+                          <p> This student has predicted his/her main and secondary software engineering roles for <b>{{is_predict}}</b> times.
                             <br>
                             Note: If a student already reached 3 times in predicting his/her roles, the student can no longer attempt to predict his/her roles.                          
                           </p>
